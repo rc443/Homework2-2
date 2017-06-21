@@ -23,7 +23,7 @@
 		<div id="data">
 			<label>Investment Amount:</label>
 			<input type="text" name="investment"
-				value="<?php echo htmlspecialchards($investment); ?>">
+				value="<?php echo htmlspecialchars($investment); ?>">
 			<br>
 
 			<label>Yearly Interest Rate:</label>
