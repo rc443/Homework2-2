@@ -20,7 +20,7 @@
 
 	//validate years
 	} else if ( $years === FALSE ) {
-		$error-message = 'Years must be a valid whole number.';
+		$error_message = 'Years must be a valid whole number.';
 	} else if ( $years <= 0 ) {
 		$error_message = 'Years must be greater than zero.';
 	} else if ( $years > 30 ) {
