@@ -10,12 +10,12 @@
 	//validate investment
 	if ($investment === FALSE ) {
 		$error_message = 'Investment must be a valid number.';
-	} else if ( $investment <=0 ) {
+	} else if ( $investment <= 0 ) {
 		$error_message = 'Investment must be greater than zero.';
 	//validate interest rate
 	} else if ( $interest_rate === FALSE ) {
 		$error_message = 'Interest rate must be a valid number.';
-	} else if ( $interest_rate <=0 ) {
+	} else if ( $interest_rate <= 0 ) {
 		$error_message = 'Interest rate must be greater than zero.';
 
 	//validate years
