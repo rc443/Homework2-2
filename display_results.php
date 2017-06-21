@@ -10,7 +10,7 @@
 	//validate investment
 	if ($investment === FALSE ) {
 		$error_message = 'Investment must be a valid number.';
-	} else if ( @investment <=0 ) {
+	} else if ( $investment <=0 ) {
 		$error_message = 'Investment must be greater than zero.';
 	//validate interest rate
 	} else if ( $interest_rate === FALSE ) {
@@ -31,7 +31,7 @@
 	}
 
 	//if an error message exists, go to the index page
-	if ($error, message != '') {
+	if ($error_message != '') {
 		include('index.phtp');
 		exit();
 	}
